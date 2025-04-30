@@ -3,7 +3,7 @@ package geometria;
 public abstract class Formas {
     protected double base;
     protected double altura;
-    
+
     public Formas(double base, double altura) {
         this.base = base;
         this.altura = altura;
@@ -29,5 +29,4 @@ public abstract class Formas {
 
     @Override
     public abstract String toString();
-    
 }

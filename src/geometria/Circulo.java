@@ -4,7 +4,7 @@ public class Circulo extends Formas {
     private double circunferencia;
 
     public Circulo(double raio) {
-        super(raio * 2, raio * 2);
+        super(raio * 2, raio * 2); // base e altura representam o diâmetro
         this.circunferencia = 2 * Math.PI * raio;
     }
 

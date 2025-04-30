@@ -3,8 +3,8 @@ package geometria;
 public class Quadrado extends Formas {
     private String cor;
 
-    public Quadrado(double base, double altura, String cor) {
-        super(base, altura);
+    public Quadrado(double lado, String cor) {
+        super(lado, lado);
         this.cor = cor;
     }
 
@@ -23,7 +23,6 @@ public class Quadrado extends Formas {
 
     @Override
     public String toString() {
-        return "Quadrado [cor=" + cor + "]";
+        return "Quadrado [lado=" + base + ", cor=" + cor + ", área=" + calcularArea() + "]";
     }
-    
 }
